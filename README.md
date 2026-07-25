@@ -68,7 +68,7 @@ Create `/boot/gumboot.cfg`:
 ```ini
 timeout=5
 default=Wii-Linux NGX
-```
+
 [Wii-Linux NGX]
 kernel=/boot/wii-linux-ngx-kernel.bin
 args=root=/dev/mmcblk0p2 rw console=tty0
@@ -76,7 +76,7 @@ args=root=/dev/mmcblk0p2 rw console=tty0
 [Rii Loader]
 kernel=/boot/riiloader.bin
 args=boot=/dev/mmcblk0p1
-
+```
 Explanation
 
     timeout=5 → automatically boots Linux after 5 seconds
@@ -87,7 +87,7 @@ Explanation
 
     riiloader.bin → loads the Wii interface from FAT32
 
-🚀 Quick Installation
+## 🚀 Quick Installation
 
     Install Gumboot/MINI into /bootmii/ or /boot/
 
@@ -105,18 +105,15 @@ Explanation
 
     Select Wii‑Linux NGX or Rii Loader at startup
 
-🖼️ Project Logo
-
-(Insert your Wii‑Linux NGX logo image here)
 🧰 Optional Linux Startup Script
-bash
+```bash
 
 #!/bin/bash
 echo "Booting Wii-Linux NGX..."
 sleep 1
 modprobe xwiimote
 startx
-
+```
 📄 License
 
 MIT License — free to use and modify.
