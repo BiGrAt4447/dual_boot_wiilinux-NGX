@@ -33,24 +33,22 @@ It allows you to:
 In short: **Rii Loader = Wii Menu + Homebrew Launcher + Boot Manager**.
 
 ---
-
-## 📦 SD Card Structure
-
+## 📁 SD Card Layout
+```tree
 SD Card
 ├── /boot/
 │   ├── wii-linux-ngx-kernel.bin
 │   ├── riiloader.bin
 │   ├── gumboot.cfg
 │
-├── /bootmii/   (if using MINI)
+├── /bootmii/        (if using MINI)
 │
 └── /mnt/wii-rootfs/
 ├── bin/
 ├── etc/
 ├── usr/
 └── ...
-Code
-
+```
 
 ---
 
