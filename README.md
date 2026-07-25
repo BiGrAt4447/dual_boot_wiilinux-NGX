@@ -105,19 +105,19 @@ Explanation
 
     Select Wii‑Linux NGX or Rii Loader at startup
 
-🧰 Optional Linux Startup Script
-```bash
+## 🧰 Optional Linux Startup Script
 
+```bash
 #!/bin/bash
 echo "Booting Wii-Linux NGX..."
 sleep 1
 modprobe xwiimote
 startx
 ```
-📄 License
+## 📄 License
 
 MIT License — free to use and modify.
-🔗 Useful Links
+## 🔗 Useful Links
 
     Configure Gumboot for dual‑boot
 
