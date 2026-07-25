@@ -67,7 +67,7 @@ Create `/boot/gumboot.cfg`:
 
 ```ini
 timeout=5
-default=Wii-Linux NGX
+default=riiloader.bin
 
 [Wii-Linux NGX]
 kernel=/boot/wii-linux-ngx-kernel.bin
@@ -81,7 +81,7 @@ Explanation
 
     timeout=5 → automatically boots Linux after 5 seconds
 
-    default=Wii-Linux NGX → Linux is the default OS
+    default=riiloader.bin → wii menu is the default OS
 
     root=/dev/mmcblk0p2 → Linux rootfs on ext2/ext3 partition
 
