@@ -1,3 +1,6 @@
+---
+work in progress (unstable)
+---
 # 🧩 Dual‑Boot Wii‑Linux NGX + Rii Loader
 Boot Linux or the Wii interface from the same SD card.
 
